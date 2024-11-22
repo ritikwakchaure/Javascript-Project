@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #ff0000;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.video-player {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-thumbnail {
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.video-thumbnail img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.comments-section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.comments-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.comments-list div {
+  margin-bottom: 10px;
+}
+
+#comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#post-comment-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
